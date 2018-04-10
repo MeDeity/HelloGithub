@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setHomeButtonEnabled(true); //设置返回键可用
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        mDrawerToggle = new ActionBarDrawerToggle(MainActivity.this,mDrawerLayout,R.string.draw_open,R.string.draw_close);
+        mDrawerToggle = new ActionBarDrawerToggle(MainActivity.this,mDrawerLayout,toolbar,R.string.draw_open,R.string.draw_close);
         mDrawerToggle.setDrawerIndicatorEnabled(true);//状态标志
         mDrawerToggle.syncState();
         mDrawerLayout.addDrawerListener(mDrawerToggle);
