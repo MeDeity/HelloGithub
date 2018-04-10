@@ -1,4 +1,4 @@
-package com.deity.github;
+package com.deity.github.ui;
 
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -7,9 +7,10 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import com.deity.github.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
